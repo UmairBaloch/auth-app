@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Enables ES6+ features
+    "module": "ESNext", // Allows using ES Modules
+    "moduleResolution": "Node", // Resolves modules like Node.js
+    "esModuleInterop": true, // Provides compatibility with CommonJS modules
+    "baseUrl": "./src", // Base directory for module resolution
+    "paths": {
+      "*": ["node_modules/*", "src/*"]
+    }
+  },
+  "include": ["src/**/*"], // Include files in the "src" folder
+  "exclude": ["node_modules"] // Exclude "node_modules" folder
+}
